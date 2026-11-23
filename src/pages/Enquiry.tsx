@@ -34,15 +34,15 @@ export default function Enquiry() {
 
           <aside className="space-y-6 lg:sticky lg:top-32 lg:self-start" aria-label="How enquiries work">
             <img
-              src={`${B}images/two-students-640.webp`}
-              srcSet={`${B}images/two-students-640.webp 640w, ${B}images/two-students-1024.webp 1024w`}
+              src={`${B}images/roses-640.webp`}
+              srcSet={`${B}images/roses-640.webp 640w, ${B}images/roses-1024.webp 1080w`}
               sizes="(min-width: 1024px) 340px, 100vw"
-              width={1600}
-              height={900}
+              width={1080}
+              height={810}
               loading="lazy"
               decoding="async"
-              alt="Two college students looking through a textbook together"
-              className="hidden aspect-[4/3] w-full rounded-2xl object-[center_30%] object-cover shadow-card lg:block"
+              alt="A bouquet of red and white roses"
+              className="hidden aspect-[4/3] w-full rounded-2xl object-cover shadow-card lg:block"
             />
             <div className="card p-6">
               <h2 className="text-lg font-bold">What happens next?</h2>
