@@ -2,9 +2,7 @@ import {
   Award,
   BookOpenCheck,
   Briefcase,
-  Camera,
   HeartHandshake,
-  History,
   Lightbulb,
   Target,
   UserRound,
@@ -48,15 +46,6 @@ const pillars = [
     icon: UsersRound,
     text: 'Beyond the syllabus, students can benefit from weekend spoken English classes, career counselling and personality development to grow with confidence.',
   },
-];
-
-/** Placeholders for verified institutional content — replace once details are confirmed by AGCA. */
-const placeholders: { title: string; text: string; icon: LucideIcon }[] = [
-  { title: 'Founder / Director', text: 'A message and profile from the academy’s founder or director will appear here.', icon: UserRound },
-  { title: 'Our Faculty', text: 'Profiles of AGCA educators and their subject expertise will be added here.', icon: UsersRound },
-  { title: 'Academy History', text: 'The story of how Asha Gyan Commerce Academy began and has grown.', icon: History },
-  { title: 'Campus Photographs', text: 'Photos of our e-classrooms and air-conditioned campus will be shared here.', icon: Camera },
-  { title: 'Achievements', text: 'Verified academic achievements and milestones will be highlighted here.', icon: Award },
 ];
 
 export default function About() {
@@ -129,32 +118,6 @@ export default function About() {
               </div>
             </Reveal>
           ))}
-        </div>
-      </section>
-
-      <section className="bg-mist py-16 sm:py-20" aria-labelledby="more-heading">
-        <div className="container-site">
-          <SectionHeading
-            eyebrow="More about AGCA"
-            title={<span id="more-heading">Get to know us better</span>}
-            intro="We’re adding more about our team, history and campus. In the meantime, feel free to contact us with any questions."
-          />
-          <ul className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-5">
-            {placeholders.map((p) => (
-              <li
-                key={p.title}
-                className="flex flex-col rounded-2xl border-2 border-dashed border-navy/15 bg-white/60 p-6"
-                data-placeholder="true"
-              >
-                <p.icon className="h-7 w-7 text-navy/40" aria-hidden="true" />
-                <h3 className="mt-4 font-bold">{p.title}</h3>
-                <p className="mt-2 flex-1 text-sm leading-relaxed text-slate-600">{p.text}</p>
-                <span className="mt-4 w-fit rounded-full bg-navy/5 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wider text-navy/60">
-                  Coming soon
-                </span>
-              </li>
-            ))}
-          </ul>
         </div>
       </section>
 
