@@ -18,7 +18,7 @@ Enquiry, callback and contact forms send email via [Web3Forms](https://web3forms
 3. On your host (Vercel / Netlify), add the same environment variable and redeploy.
 
 Without the key, forms **do not pretend to succeed** — they show "Online submissions are not available yet" and
-offer WhatsApp instead. WhatsApp links (`wa.me/918920250283`) work with no configuration.
+offer WhatsApp instead. WhatsApp links (`wa.me/919466285533`) work with no configuration.
 
 Spam protection: honeypot field (`botcheck`), minimum fill-time check, required consent, client-side validation.
 

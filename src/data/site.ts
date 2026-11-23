@@ -6,9 +6,9 @@ export const site = {
   name: 'Asha Gyan Commerce Academy',
   shortName: 'AGCA',
   tagline: 'Personalized Tuitions & Academic Support',
-  phoneDisplay: '+91 89202 50283',
-  phoneE164: '+918920250283',
-  whatsappNumber: '918920250283',
+  phoneDisplay: '+91 94662 85533',
+  phoneE164: '+919466285533',
+  whatsappNumber: '919466285533',
   email: 'agca19677@gmail.com',
   websiteDisplay: 'www.agcasm.com',
   /** Canonical site URL. Override per deployment with VITE_SITE_URL. */

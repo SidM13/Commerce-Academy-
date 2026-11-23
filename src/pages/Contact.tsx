@@ -202,7 +202,7 @@ export default function Contact() {
       <Seo
         path="/contact"
         title="Contact Us"
-        description="Visit Asha Gyan Commerce Academy at House No. 50, Sector 8, Faridabad or House No. 414, Sector 40, Gurugram (Gurgaon). Call or WhatsApp +91 8920250283."
+        description="Visit Asha Gyan Commerce Academy at House No. 50, Sector 8, Faridabad or House No. 414, Sector 40, Gurugram (Gurgaon). Call or WhatsApp +91 9466285533."
       />
       <PageHero
         eyebrow="Contact us"
