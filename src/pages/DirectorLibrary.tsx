@@ -161,15 +161,35 @@ export default function DirectorLibrary() {
                       All quality institutions are the outcome of vision, ideas, aspirations and dreams of some dedicated
                       and enterprising dynamic persons who thought beyond today towards a better and brighter tomorrow.
                       Asha Gyan Commerce Academy was also conceptualized by a visionary person and accompanied team of
-                      committed and caring people who have been planning{expanded ? '' : '…'}
+                      committed and caring people who have been planning
+                      {expanded ? ' not for a year, not for a decade but for every breadth of lifetime.' : '…'}
                     </p>
                     {expanded && (
-                      <div
-                        className="rounded-xl border-2 border-dashed border-navy/15 bg-mist p-5 text-sm text-slate-600"
-                        data-placeholder="true"
-                      >
-                        The remainder of the Director&rsquo;s message will be added here once the full text is provided.
-                      </div>
+                      <>
+                        <p>
+                          Hard work of an insightful team, learned &amp; qualified faculty is magnificently manifested in
+                          the enviable track record of excellent results of B.Com., B.Com. (Hons.), B.B.A., C.A., ICWA,
+                          M.Com., M.B.A. students being taught by our experienced faculty at Asha Gyan Commerce Academy.
+                        </p>
+                        <p>
+                          The earnest endeavor of Asha Gyan Commerce Academy is not only to churn out professionals but
+                          also to turn our students into excellent human assets for the industry.
+                        </p>
+                        <p>
+                          I welcome you all to Asha Gyan Commerce Academy, a milestone of academic excellence, imparting
+                          quality teaching to commerce students. Our Academy is a leading institute in higher education
+                          sector maintaining a holistic and disciplined academic teaching-learning environment, where value
+                          based education is extended to commerce students in a healthy and safe environment.
+                        </p>
+                        <p>
+                          Those of you who enter the portals of this Academy may expect from us unswerving commitment to
+                          help you in scoring excellent results and achieve your goal effectively. We expect from you
+                          discipline, hard work and unrelenting zeal to achieve yours &amp; ours goals hand-in-hand.
+                        </p>
+                        <p>You alone can help us to help you.</p>
+                        <p>Wishing you all a successful journey ahead.</p>
+                        <p className="font-display font-bold text-navy">&ndash; Dr. Savita Manchanda</p>
+                      </>
                     )}
                   </div>
                   <button
